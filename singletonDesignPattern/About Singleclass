@@ -1,0 +1,5 @@
+This pattern is generally not recommended to use because we can't control the scope of object(Basically what we try to
+achieve in OOD).
+Usecase:
+i) During some heavy operations like database connection establishment etc we use it so that other class can use its
+objects without instantiation(thus saving us high computation)
